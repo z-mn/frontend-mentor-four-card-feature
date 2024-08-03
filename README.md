@@ -19,13 +19,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop](./screenshot.jpg)
-![Mobile](./screenshot.jpg)
+![Desktop](desktop.png)
+![Mobile](mobile.png)
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live Site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/z-mn/frontend-mentor-four-card-feature)
+- Live Site URL: [Live Site URL](https://z-mn.github.io/frontend-mentor-four-card-feature/)
 
 ## My process
 
