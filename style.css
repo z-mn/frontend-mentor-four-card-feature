@@ -40,6 +40,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 3rem;
     line-height: 1.7;
 }
@@ -75,11 +76,12 @@ h1 {
 .grid-container {
     display: grid;
     gap: 2rem;
+    margin-inline: auto;
 }
 
 .card {
     background-color: white;
-    box-shadow: 3px 3px 20px var(--grayBlue);
+    box-shadow: 0 1rem 1.5rem -0.5rem var(--grayBlue);
     padding: 1.5rem 2rem;
     border-radius: 5px;
 }
@@ -115,4 +117,41 @@ h2 {
 
 .blue {
     border-top: 4px solid var(--blue);
+}
+
+/* Desktop Changes */
+
+@media screen and (min-width: 55em) {
+    .container-narrow {
+        max-width: 35rem;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    .small-description {
+        margin-block-end: 3rem;
+    }
+
+    .grid-container {
+        grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+        max-width: 75rem;
+    }
+
+    .cyan {
+        grid-area: 2 / 1 / span 2 / 1;
+    }
+
+    .red {
+        grid-area: 1 / 2 / span 2 / 2;
+    }
+
+    .orange {
+        grid-area: 3 / 2 / span 2 / 2;
+    }
+
+    .blue {
+        grid-area: 2 / 3 / span 2 / 3;
+    }
 }
